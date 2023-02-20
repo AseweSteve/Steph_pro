@@ -7,11 +7,13 @@
     <title>Stephene Asewe; My Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <script src="script.js" defer></script>
+    <script type="module" src="signUp.js" defer></script>
 
 </head>
 <body>
     <header>
    <nav class="nav-bar">
+    
     <h1><a href="index.html">
     <img style="width: 100px; height: 100px" src="./img/logo.jpg" alt=""></a>
     STEPHENE ASEWE</h1>
@@ -24,9 +26,17 @@
     <div class="nav-links hide">           
         <a href="">Home</a>
         <a href="about.html">About</a>
-        <a href="#resume">Resume</a>
+        <a href="resume.html">Resume</a>
         <a href="contact.html">Contact</a>
         <a href="signUp.html">Login</a>
+    </div>
+    <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+           <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+           <ion-icon name="moon-outline" class="moon"></ion-icon>
+           <div class="switcher"></div>
+        </label>
     </div>
    </nav> 
     </header>
@@ -34,13 +44,29 @@
         	<!-- Banner with background picture -->
 <section class="landing">
 		<h1>Home Page</h1>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/profile.php?id=100088667111988">
+                <img src="./img/fb.jpg" alt="Facebook"></a>
+            <a href="">
+            <a href="https://twitter.com/AseweStephene?t=khJYSu92syBi60jOQ6-_eQ&s=09">
+                <img src="./img/tw.jpg" alt="Twitter"></a>
+            <a href="https://www.youtube.com/channel/UCa7aDHgwTSX5FCntoqh1dLQ">
+                <img src="./img/yt.jpg" alt="YouTube"></a>
+            <a href="https://www.instagram.com/invites/contact/?i=girgd0zswj35&utm_content=k51kaaw">
+                <img src="./img/ig.jpg" alt="Instagram"></a>
+            <a href="https://github.com/AseweSteve">
+                <img src="./img/git.jpg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/stephene-asewe-334082201">
+                <img src="./img/lkn.jpg" alt="Linkedln"></a>
+            <a href="https://g.dev/AseweSteve">
+                <img src="./img/gg.jpg" alt="Google Developer"></a>
+        </div>
+
 		<p><date->Updated-February,2023</date->.</p>
-	
+
 
     <main>
-   <section>
-<br>
-<br>
+   <section class="center">
             <p><span class="name-style">Welcome to my Portfolio</span></p>
             <p>Who is Stephene?</p>
             <br>
@@ -66,8 +92,6 @@
 </section>
 </body>
 <footer>
-    <p>Author: Asewe Creatives<br>
-        <a href="mailto:asewestephene@gmail.com">asewestephene@gmail.com</a></p>
-        <p><Tel class="no:"><a href="callto:+25476 902 6177">+25476 902 6177</a></Tel></p>
+    <p>&copy; 2023 Asewe_Creatives</p>
 </footer>
 </html>
