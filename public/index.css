@@ -106,11 +106,11 @@ header {
 }
 
 .social-icons img {
-    width: 60px;
-    margin: 0 24px;
+    width: 30px;
+    margin: 0 12px;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .menu {
